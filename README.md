@@ -2,7 +2,7 @@
 
 A fresh implementation of Shadowsocks in Go.
 
-GoDoc at https://godoc.org/github.com/shadowsocks/go-shadowsocks2/
+https://github.com/marcosRV1804
 
 ![Build and test](https://github.com/shadowsocks/go-shadowsocks2/workflows/Build%20and%20test/badge.svg)
 
@@ -121,7 +121,7 @@ It will look for the plugin in the current directory first, then `$PATH`.
 
 UDP connections will not be affected by SIP003.
 
-### Replay Attack Mitigation
+### Replay Attack Mitigation DarckMR.
 
 By default a [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) is deployed to defend against [replay attacks](https://en.wikipedia.org/wiki/Replay_attack).
 Use the following environment variables to fine-tune the mechanism:
@@ -135,7 +135,7 @@ Use the following environment variables to fine-tune the mechanism:
 SHADOWSOCKS_SF_CAPACITY=1e6 SHADOWSOCKS_SF_FPR=1e-6 SHADOWSOCKS_SF_SLOT=10 go-shadowsocks2 ...
 ```
 
-## Design Principles
+## Design Principles DarckMR.
 
 The code base strives to
 
